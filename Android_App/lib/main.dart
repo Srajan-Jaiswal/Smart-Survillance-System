@@ -1,7 +1,9 @@
 //import 'package:hackathon/screens/help.dart';
 import 'package:hackathon/screens/loginpage.dart';
+import 'package:hackathon/screens/about_us.dart';
 import 'package:hackathon/screens/mainpage1.dart';
 import 'package:hackathon/screens/registrationpage.dart';
+import 'package:hackathon/screens/doubt_assistant.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'dart:io';
@@ -44,6 +46,8 @@ class MyApp extends StatelessWidget {
         LoginPage.id: (context) => LoginPage(),
         //Help.id: (context) => Help(),
         MainPage1.id: (context) => MainPage1(),
+        AboutPage.routeName: (context) => AboutPage(),
+        DiscussionsPage.routeName: (context) => DiscussionsPage(),
       },
       //theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),

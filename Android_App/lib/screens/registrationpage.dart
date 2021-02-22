@@ -144,7 +144,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
                   ),
                   TextField(
                     controller: emailController,
-                    obscureText: true,
+                    obscureText: false,
                     decoration: InputDecoration(
                         hintText: "Email address",
                         hintStyle: TextStyle(
@@ -226,7 +226,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
                       showSnackBar("Provide valid name");
                       return;
                     }
-                    if (phoneController.text.length < 10) {
+                    if (phoneController.text.length < 10 || phoneController.text.length > 10) {
                       showSnackBar("Provide valid phone number");
                       return;
                     }
