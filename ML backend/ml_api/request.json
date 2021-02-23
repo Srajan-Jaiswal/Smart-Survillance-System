@@ -1,0 +1,34 @@
+{  
+    "request": [
+        {  
+            "area_id":       "123",   
+            "area_name":      "Nirman vihar",   
+            "crowd_density":    "Very High",
+            "traffic_density": "Moderate",
+            "peak": 12
+
+        },
+        {  
+            "area_id":       "456",   
+            "area_name":      "Bangalore",   
+            "crowd_density":    "low",
+            "traffic_density": "Moderate",
+            "peak": 30
+
+        },
+        {  
+            "area_id":       "678",   
+            "area_name":      "Dehradun",   
+            "crowd_density":    "Moderate",
+            "traffic_density": "Moderate",
+            "peak": 5
+        }
+
+    ],
+    "sample" : {
+        "ref_video": "C://Users//Utkarsh//Desktop//01.avi",
+        "sample_anomaly_1": "C://Users//Utkarsh//Desktop//1_Trim.mp4",
+        "sample_anomaly_2": "C://Users//Utkarsh//Desktop//2.mp4",
+        "area_analysis": "C://Users//Utkarsh//Desktop//real-time.mp4"
+    }
+}  
